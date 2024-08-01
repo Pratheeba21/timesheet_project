@@ -1,0 +1,89 @@
+/* Login.css */
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #081028; /* Dark background for the entire page */
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    display: flex;
+    width: 80vw; /* The container takes up 80% of the viewport width */
+    max-width: 800px; /* Maximum width of the container */
+    height: 80vh; /* The container takes up 80% of the viewport height */
+    max-height: 600px; /* Maximum height of the container */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-image {
+    width: 50%; /* Half of the container width */
+    height: 100%; /* Full height of the container */
+    background: url('../assets/login-background.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.login-form {
+    width: 50%; /* Half of the container width */
+    height: 100%; /* Full height of the container */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF; /* White background for the form */
+    padding: 20px; /* Padding inside the form for better spacing */
+}
+
+.login-form form {
+    width: 100%;
+    max-width: 400px; /* Limit form width */
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #d4d4d4; /* Primary color for high contrast against the light background */
+}
+
+.login-form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-icon {
+    margin-right: 10px;
+    color: #134B70;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #CCCCCC; /* Light border color */
+    border-radius: 5px;
+    color: #201E43; /* Text color for better readability */
+}
+
+.login-form button {
+    background-color: #134B70; /* Secondary color from the palette */
+    color: #FFFFFF; /* White text for contrast */
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.login-form button:hover {
+    background-color: #1F8A8A; /* Darker shade for hover state */
+}
+
